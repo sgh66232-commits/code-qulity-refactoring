@@ -1,10 +1,10 @@
-def calc(p, d):
+def calculate_discounted_price(price, discount):
     if d > 0:
-        return p - (p * d / 100)
+        return price - (price * d / 100)
     else:
-        return p
+        return price
 
 price = 100000
 discount = 20
 
-print(calc(price, discount))
+print(calculate_discounted_price(price, discount))
