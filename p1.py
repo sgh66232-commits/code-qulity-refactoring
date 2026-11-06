@@ -1,6 +1,6 @@
-def calculate_discounted_price(price, d):
-    if d > 0:
-        return price - (price * d / 100)
+def calculate_discounted_price(price, discount_percent):
+    if discount_percent > 0:
+        return price - (price * discount_percent / 100)
     else:
         return price
 
